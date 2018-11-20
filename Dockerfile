@@ -1,5 +1,5 @@
 FROM scispike/google-pubsub-emulator:0.1.0-pre.0
-LABEL version=0.1.0-pre.0
+LABEL version=0.1.0-pre.1
 
 RUN   apk --update add nodejs yarn &&   yarn global add @google-cloud/pubsub
 
